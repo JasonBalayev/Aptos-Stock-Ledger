@@ -49,7 +49,8 @@ This repository contains a simple stock tracking application built on the Aptos 
 
 Before adding stocks, you need to initialize your stock tracker:
 
-```aptos move run --function-id default::stock_tracker::initialize
+```
+aptos move run --function-id default::stock_tracker::initialize
 ```
 
 ### Add Stocks
