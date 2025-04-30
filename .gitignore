@@ -1,0 +1,26 @@
+# Aptos  
+.aptos/
+build/
+
+# Private keys and configs
+*.key
+private_keys/
+*private*
+*secret*
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Node.js (if you add a frontend later)
+node_modules/
+npm-debug.log 
